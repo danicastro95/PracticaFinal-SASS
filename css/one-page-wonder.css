@@ -132,23 +132,59 @@ header.masthead .masthead-content .masthead-subheading {
   box-shadow: 0 0 0 0.2rem rgba(248, 214, 5, 0.5);
 }
 
-/* line 64, fields/*.png */
-.fields-sprite, .fields-cp, .fields-erp, .fields-shop {
-  background-image: url('/images/fields-s36cda03805.png');
+/* line 2, ../scss/_footer.scss */
+footer .social-buttons {
+  height: 64px;
+}
+/* line 5, ../scss/_footer.scss */
+footer .social-buttons .icons-sprite, footer .social-buttons .icons-facebook, footer .social-buttons .icons-instagram, footer .social-buttons .icons-twitter {
+  width: 64px;
+}
+
+/* line 8, ../scss/_formulario.scss */
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url("../images/header.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+/* line 16, ../scss/_formulario.scss */
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+/* line 26, ../scss/_formulario.scss */
+.call-to-action .darken {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 64, icons/*.png */
+.icons-sprite, .icons-facebook, .icons-instagram, .icons-twitter {
+  background-image: url('/images/icons-s2fdfd739ef.png');
   background-repeat: no-repeat;
 }
 
-/* line 84, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.fields-cp {
+/* line 84, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-facebook {
   background-position: 0 0;
 }
 
-/* line 84, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.fields-erp {
-  background-position: 0 -400px;
+/* line 84, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-instagram {
+  background-position: 0 -64px;
 }
 
-/* line 84, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.fields-shop {
-  background-position: 0 -800px;
+/* line 84, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-twitter {
+  background-position: 0 -128px;
 }

@@ -7,7 +7,8 @@
 @import "navbar.scss";
 @import "masthead.scss";
 @import "bootstrap-overrides.scss";
+@import "footer";
+@import "formulario";
 @import "compass/utilities/sprites";
-@import "fields";
-@import "fields/*.png";
-@include all-fields-sprites;
+@import "icons/*.png";
+@include all-icons-sprites;
