@@ -1,3 +1,5 @@
+
+// Fuentes
 @mixin heading-font {
   font-family: 'Catamaran';
   font-weight: 800 !important;
@@ -7,6 +9,7 @@
   font-family: 'Lato';
 }
 
+// Fondo formulario
 @mixin background-cover {
   -webkit-background-size: cover;
   -moz-background-size: cover;

@@ -1,9 +1,11 @@
-// Core variables and mixins
+// Variables y mixins
 @import "variables.scss";
 @import "mixins.scss";
-// Global CSS
+
+// Global
 @import "global.scss";
-// Components
+
+// Componentes
 @import "navbar.scss";
 @import "head.scss";
 @import "bootstrap-overrides.scss";
