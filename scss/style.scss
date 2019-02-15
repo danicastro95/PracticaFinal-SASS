@@ -5,10 +5,10 @@
 @import "global.scss";
 // Components
 @import "navbar.scss";
-@import "masthead.scss";
+@import "head.scss";
 @import "bootstrap-overrides.scss";
 @import "footer";
-@import "formulario";
+@import "form";
 @import "compass/utilities/sprites";
 @import "icons/*.png";
 @include all-icons-sprites;

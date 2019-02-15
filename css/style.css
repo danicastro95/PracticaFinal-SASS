@@ -53,8 +53,8 @@ h6 {
   color: #fff;
 }
 
-/* line 1, ../scss/_masthead.scss */
-header.masthead {
+/* line 1, ../scss/_head.scss */
+header.head {
   position: relative;
   overflow: hidden;
   padding-top: calc(7rem + 72px);
@@ -65,35 +65,35 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
-/* line 12, ../scss/_masthead.scss */
-header.masthead .masthead-content {
+/* line 12, ../scss/_head.scss */
+header.head .head-content {
   z-index: 1;
   position: relative;
   background-color: rgba(0, 0, 0, 0.7);
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-/* line 18, ../scss/_masthead.scss */
-header.masthead .masthead-content .masthead-heading {
+/* line 18, ../scss/_head.scss */
+header.head .head-content .head-heading {
   font-size: 4rem;
 }
-/* line 21, ../scss/_masthead.scss */
-header.masthead .masthead-content .masthead-subheading {
+/* line 21, ../scss/_head.scss */
+header.head .head-content .head-subheading {
   font-size: 2rem;
 }
 
 @media (min-width: 992px) {
-  /* line 28, ../scss/_masthead.scss */
-  header.masthead {
+  /* line 28, ../scss/_head.scss */
+  header.head {
     padding-top: calc(15rem + 55px);
     padding-bottom: 5rem;
   }
-  /* line 33, ../scss/_masthead.scss */
-  header.masthead .masthead-content .masthead-heading {
+  /* line 33, ../scss/_head.scss */
+  header.head .head-content .head-heading {
     font-size: 6rem;
   }
-  /* line 37, ../scss/_masthead.scss */
-  header.masthead .masthead-content .masthead-subheading {
+  /* line 37, ../scss/_head.scss */
+  header.head .head-content .head-subheading {
     font-size: 4rem;
   }
 }
@@ -141,7 +141,7 @@ footer .social-buttons .icons-sprite, footer .social-buttons .icons-facebook, fo
   width: 64px;
 }
 
-/* line 8, ../scss/_formulario.scss */
+/* line 1, ../scss/_form.scss */
 .call-to-action {
   position: relative;
   background-color: #343a40;
@@ -153,7 +153,7 @@ footer .social-buttons .icons-sprite, footer .social-buttons .icons-facebook, fo
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
-/* line 16, ../scss/_formulario.scss */
+/* line 9, ../scss/_form.scss */
 .call-to-action .overlay {
   position: absolute;
   background-color: #212529;
@@ -163,7 +163,7 @@ footer .social-buttons .icons-sprite, footer .social-buttons .icons-facebook, fo
   left: 0;
   opacity: 0.3;
 }
-/* line 26, ../scss/_formulario.scss */
+/* line 19, ../scss/_form.scss */
 .call-to-action .darken {
   background-color: rgba(0, 0, 0, 0.7);
 }
